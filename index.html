@@ -1,82 +1,75 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>瓜瓜网站群</title>
-<meta name="keywords" content="陆尧顶瓜瓜,陆尧瓜瓜,陆尧，瓜瓜，网站，导航，导航网" />
-<meta name="Description" content="瓜瓜网站群" />
-</head>
+<!DOCTYPE HTML>
+<html>
+	<head>
 
-<link rel="stylesheet" type="text/css" href="base.css" />
+		<title> 开始</title>
+		<meta charset="GB2312" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" tppabs="/inside/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" tppabs="/inside/noscript.css" /></noscript>
+	</head>
+	<body onselectstart="return false" oncontextmenu=self.event.returnValue=false> 
 
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="jquery.easing.js"></script>
-<script type="text/javascript" src="base.js"></script>
-<style type="text/css">
-	.yqlj div{
-		line-height:25px;
-		padding:5px 55px;
-	}
-	.footer{
-		width:100%;
-		text-align:center;
-		}
-	.footer li{
-		width:100%;
-		line-height:26px;
-		list-style:none;
-		
-		}
-</style>
-<body>
-<div style="height:160px;">
-</div>
-<div class="s-mod w1100" style="height:310px">
-	<div class="s-mod-loding"><img src="images/loading_d.gif"></div>
-	<ul>
-    		<a href="tencent://Message/?Menu=YES&Uin=274931227&websiteName=im.qq.com" target="_blank"><li class="s-mod-item" w="266" h="266" l="0" t="0" bg="#6ad62f" cbg="#54ce11">
-		<div class="s-mod-wrap">
-				<div class="s-mod-def"><span>联系我们</span></div>
-				<div class="s-mod-cur"><span>联系我们</span></div>
-		</li></a>
-        		<a href="http://www.cndtc.com" target="_blank"><li class="s-mod-item" w="227" h="127" l="278" t="0" bg="#1CA1E2" cbg="#1182BA">
-			<div class="s-mod-wrap">
-				<div class="s-mod-def"><span>功能待开发</span></div>
-				<div class="s-mod-cur"><span>敬请期待</span></div>
-		</li></a>
-		<a href="http://sc.cpsct.com" target="_blank"><li class="s-mod-item" w="305" h="127" l="517" t="0" bg="#aa5096" cbg="#922a7b">
-			<div class="s-mod-wrap">
-				<div class="s-mod-def"><span>功能待开发</span></div>
-				<div class="s-mod-cur"><span>功能待开发</span></div>
-		</li></a>
-       <a href="http://www.cndtc.com/content-items-69.html" target="_blank"> <li class="s-mod-item" w="305" h="127" l="278" t="139" bg="#fb48a5" cbg="#f91e90">
-			<div class="s-mod-wrap">
-				<div class="s-mod-def"><span>功能待开发</span></div>
-				<div class="s-mod-cur"><span>功能待开发</span></div>
-		</li></a>
-		<a href="http://sh.cpsct.com" target="_blank"><li class="s-mod-item" w="227" h="127" l="595" t="139" bg="#FFD302" cbg="#EAC203">
-			<div class="s-mod-wrap">
-				<div class="s-mod-def"><span>功能待开发</span></div>
-				<div class="s-mod-cur"><span>功能待开发</span></div>
+         
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+
+							<span class=""><font size="8">始</font></span>						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>瓜瓜起始页</h1>
+								<p id="hitokoto" style="font-size: 30px;">瓜瓜正获取中......</p>
+
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto')
+      hitokoto.innerText = data.hitokoto
+    })
+    .catch(console.error)
+</script>
+
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="https://www.baidu.com/" target="_blank">百度</a></li>
+								<li><a href="https://www.bilibili.com/" target="_blank">哔哩哔哩</a></li>
+
+								<li><a href="https://tmall.com/"target="_blank">天猫</a></li>
+								<li><a href="https://fanyi.baidu.com/"target="_blank">翻译</a></li>
+								<li><a href="https://luyaoguagua.top/联系"target="_blank">联系站长</a></li>
+								<li><a href="https://music.163.com/#/playlist?id=1990381683"target="_blank">音乐歌单</a></li>
+
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">2020<a href="https://luyaoguagua.top/" target="_blank">陆尧瓜瓜</a> 版权所有
+
+
+					</footer>
+
 			</div>
-		</li></a>
-      <a href="http://bd.cpsct.com" target="_blank">  <li class="s-mod-item" w="266" h="266" l="835" t="0" bg="#e8443a" cbg="#d92e24">
-			<div class="s-mod-wrap">
-				<div class="s-mod-def"><span>功能待开发</span></div>
-				<div class="s-mod-cur"><span>功能待开发</span></div>
-			</div>
-		</li></a>
-	</ul>
-</div>
-<div style="width:100%; margin:0px;padding:0px;border-top:1px solid #eee;margin-top:20px;">
-	<div class="yqlj">
-<h3>
-    	<div>
-    </div></h3>
-    <div class="footer" style="padding-bottom:30px;">
-<li>友情链接： <a href="11111" target="_blank">友链1</a>　-　<a href="22222" target="_blank">友链2</a>　-　<a href="33333" target="_blank">友链3</a>　-　<a href="44444" target="_blank">友链4</a></li>
-<li>Copyright©2004-2020 陆尧瓜瓜 All rights reserved.</li>
-    </div>
-</div>
-</body>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js" ></script>
+			<script src="assets/js/skel.min.js" ></script>
+			<script src="assets/js/util.js" ></script>
+			<script src="assets/js/main.js" ></script>
+
+
+	</body>
 </html>
