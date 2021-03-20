@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://game.luyaoguagua.top</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/relax.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/frog.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/build.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/fruit.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/viking.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/mofang.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/2048.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/tank.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://game.luyaoguagua.top/focus.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+</urlset>
