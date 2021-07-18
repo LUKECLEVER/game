@@ -12,7 +12,13 @@
  <changefreq>always</changefreq>
 </url>
 
-<url>
+ <url>
+ <loc>https://game.luyaoguagua.top/en.html</loc>
+ <priority>1.0</priority>
+ <changefreq>always</changefreq>
+</url>
+
+ <url>
  <loc>https://game.luyaoguagua.top/relax.html</loc>
  <priority>1.0</priority>
  <changefreq>always</changefreq>
